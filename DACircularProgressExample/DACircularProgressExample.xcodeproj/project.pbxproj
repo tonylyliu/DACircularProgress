@@ -155,12 +155,18 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Shout Messenger";
+				TargetAttributes = {
+					63B7812B14E0BBE60009EE1F = {
+						DevelopmentTeam = ZWLJ44C93C;
+					};
+				};
 			};
 			buildConfigurationList = 63B7812614E0BBE60009EE1F /* Build configuration list for PBXProject "DACircularProgressExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 63B7812114E0BBE60009EE1F;
@@ -292,10 +298,11 @@
 		63B7814B14E0BBE60009EE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZWLJ44C93C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DACircularProgressExample/DACircularProgressExample-Prefix.pch";
 				INFOPLIST_FILE = "DACircularProgressExample/DACircularProgressExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,10 +311,11 @@
 		63B7814C14E0BBE60009EE1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZWLJ44C93C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DACircularProgressExample/DACircularProgressExample-Prefix.pch";
 				INFOPLIST_FILE = "DACircularProgressExample/DACircularProgressExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
